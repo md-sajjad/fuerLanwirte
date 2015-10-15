@@ -14,6 +14,7 @@
 		4A1222551BD04C7A00B38C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1222531BD04C7A00B38C8E /* LaunchScreen.storyboard */; };
 		4A1222601BD04C7A00B38C8E /* fuerLanwirteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A12225F1BD04C7A00B38C8E /* fuerLanwirteTests.swift */; };
 		4A12226B1BD04C7A00B38C8E /* fuerLanwirteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A12226A1BD04C7A00B38C8E /* fuerLanwirteUITests.swift */; };
+		4A12227A1BD04D9E00B38C8E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1222791BD04D9E00B38C8E /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4A1222661BD04C7A00B38C8E /* fuerLanwirteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuerLanwirteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A12226A1BD04C7A00B38C8E /* fuerLanwirteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuerLanwirteUITests.swift; sourceTree = "<group>"; };
 		4A12226C1BD04C7A00B38C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1222791BD04D9E00B38C8E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4A1222491BD04C7A00B38C8E /* fuerLanwirte */ = {
 			isa = PBXGroup;
 			children = (
+				4A1222781BD04D8300B38C8E /* Controllers */,
 				4A12224A1BD04C7A00B38C8E /* AppDelegate.swift */,
 				4A12224C1BD04C7A00B38C8E /* ViewController.swift */,
 				4A12224E1BD04C7A00B38C8E /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				4A12226C1BD04C7A00B38C8E /* Info.plist */,
 			);
 			path = fuerLanwirteUITests;
+			sourceTree = "<group>";
+		};
+		4A1222781BD04D8300B38C8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A1222791BD04D9E00B38C8E /* MapViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A12224D1BD04C7A00B38C8E /* ViewController.swift in Sources */,
+				4A12227A1BD04D9E00B38C8E /* MapViewController.swift in Sources */,
 				4A12224B1BD04C7A00B38C8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
